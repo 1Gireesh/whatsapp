@@ -1,0 +1,67 @@
+.sidebar {
+    padding: 0.35rem;
+    color: #ffffff;
+    background: #263238;
+}
+
+.sidebar h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    width: 200px;
+}
+
+.sidebar ul {
+    overflow-y: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 100vh;
+    list-style-type: none;
+    width: 200px;
+}
+
+.new_contact_button {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.new_contact_button:hover {
+    background: #36454c;
+}
+
+.sidebar_contact {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.sidebar_contact:hover {
+    background: #36454c;
+}
+
+.user_icon {
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.contact_content {
+    flex-grow: 1;
+}
+
+.contact_content_box {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+.contact_content p{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #cfd8dc;
+}
