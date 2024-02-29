@@ -14,7 +14,8 @@ export default function Main() {
                     date: "2024-02-27T10:00:00Z",
                     message: ["Hello!", "How are you?"]
                 }
-            ]
+            ],
+            phoneNumber: "916360621591"
         }
     ]);
 

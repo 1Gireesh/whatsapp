@@ -20,7 +20,7 @@ const Sidebar = ({ contacts = [], setSelectedUser, selectedUser, setIsPopup, dra
             />
             <div className="contact_content">
               <div className="contact_content_box">{contact.name}</div>
-              <p>{draft[contact.id] ? '[Draft]' : contact.lastMessage}</p>
+              <p>{(draft[contact.id] && selectedUser!=contact.id) ? '[Draft]' : contact.lastMessage}</p>
             </div>
           </li>
         ))}
